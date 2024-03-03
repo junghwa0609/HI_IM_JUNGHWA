@@ -3,18 +3,16 @@
 #숫자 사이에 x혹은 +연산자를 넣어서
 #결과적으로 만들어질 수 있는 가징 큰 수를 구하는 프로그램
 #+든, x든 왼쪽에서부터 순서대로 이루어진다.
-#내 풀이 -> 0을 제외한 모든 수는 곱하기가 되게. 0이 나오면 무조건 더하기로!
-# 첫 번쨰 문자가 0인경우 -> 두번째 문자는 무조건 더해야 함
-#두번째 이후 문자들은 모두 곱하기
-# 첫 번째 문자가 0이 아닌경우 -> 무조건 곱하기 result*S[i]반복
-#그러다가 0을 만난 경우 -> result+S[i]
+#다시! 0과 1을 만나면 더하기!
+#나머지 수를 만나면 곱하기!
 
-S=list(map(int,input()))
-result = 0 
+S = list(map(int,input()))
+result = 0
+
 for i in range(len(S)):
-    if S[i]==0:
+    if S[i] == 0 or S[i]==1 or result==0 :
         result += S[i]
     else :
-        if result ==0 :
-            result+=S[i]
-        else: result *= S[i]
+        result *= S[i]
+
+print(result)
