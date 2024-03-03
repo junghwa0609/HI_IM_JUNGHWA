@@ -10,8 +10,10 @@
 
 N=int(input())
 X = list(map(int,input().split()))
-X=sorted(X)
+X.sort()
+
 result = 0
+
 for i in range(N):
     if X[i] == X[i-1]: # 2 개수 해줬으면 또 더하지 말고 넘어가기!
         pass

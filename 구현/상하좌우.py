@@ -20,3 +20,5 @@ for i in range(N):
     elif (first[1] or first[0]) <=1 : (first[1] or first[0]) ==1
     
 print(first)
+
+#구현 실패
