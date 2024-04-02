@@ -1,0 +1,13 @@
+
+body {
+        color : blue;
+        }
+/* 여긴 스타일 파일이라서 스타일 태그를 써줄 필요가 없다 주석표시는 다르네*/
+span {
+    padding-left: 100px;
+    padding-top: 100000px;
+}
+div {
+    padding-left: 100px;
+    padding-top: 100px;
+}
