@@ -64,5 +64,4 @@ def solution2(scoville,K):
         heapq.heappush(scoville,new_scoville)
         answer += 1
     return answer
-
 # 통과
