@@ -44,6 +44,13 @@ HTML 내용이 변하는 동적 웹사이트(계속 피드가 갱신되는것처
 "웹 브라우저를 파이썬으로 조작하자!"
 Selenium 라이브러리 이용
 
+jupyterlab
+esc,enter
+A현재 셀 위에 셀 만들기
+B현재 셀 아래에 셀 만들기
+dd 현재 셀 삭제하기
+shift enter 셀 실행
+
 
 markdown 이용할 때 
 _이탤릭_
