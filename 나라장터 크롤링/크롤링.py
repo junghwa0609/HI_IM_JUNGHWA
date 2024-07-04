@@ -100,4 +100,4 @@ def scrape_until_end(start_year, start_period):
     all_data.to_csv('한국은행.csv', index=False, encoding='utf-8-sig')
     print("모든 데이터를 CSV 파일로 저장했습니다.")
 
-scrape_until_end(2022, '상반기시작')
+scrape_until_end(2022, '상반기시작') #임의로 넣어본..
